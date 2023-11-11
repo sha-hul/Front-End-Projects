@@ -1,0 +1,62 @@
+<style>
+    .cursors {
+        min-width: 200px;
+        max-width: 80vw;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+        overflow-x: auto;
+    }
+    section:first-child{  /*doubt*/
+        background-color: aqua;
+    }
+    .default {
+        display: flex;
+    }
+    .none {
+        cursor: none;
+    }
+    .help {
+        cursor: help;
+    }
+    .pointer {
+        cursor: pointer;
+    }
+    .progress {
+        cursor: progress;
+    }
+    .wait {
+        cursor: wait;
+    }
+    .text {
+        cursor: text;
+    }
+    .not-allowed {
+        cursor: not-allowed;
+    }
+    h1:last-child{
+        background-color: blue;
+    }
+</style>
+<h1>The Cursors of CSS</h1>
+<section id="cursor" class="cursors">
+    <div class="default">default</div>
+    <h1>The Cursors of CSS</h1>
+    <div class="none">none</div>
+    <div class="help">help</div>
+    <div class="pointer">pointer</div>
+    <h1>The Cursors of CSS</h1>
+    <div class="progress">progress</div>
+    <div class="wait">wait</div>
+    <div class="text">text</div>
+    <div class="not-allowed">not-allowed</div> //lastcho
+</section>
+<section>
+    <div></div>
+    <div></div>
+    <h1>The Cursors of CSS</h1>
+    <div>Hi Last </div>
+</section>

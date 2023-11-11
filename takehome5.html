@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Button</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: space-around;
+        }
+        .circleshape p {
+            cursor: pointer;
+            width: 1rem;
+            height: 1rem;
+            background-color: #424242;
+            border-radius: 100%;
+            margin-bottom: 4px;
+        }
+        .squareshape p {
+            cursor: pointer;
+            width: 1rem;
+            height: 1rem;
+            background-color: #424242;
+            margin-bottom: 4px;
+        }
+        .rectangleshape p {
+            cursor: pointer;
+            width: 2.5rem;
+            height: 0.5rem;
+            background-color: #424242;
+            margin-bottom: 4px;
+        }
+        .circleshape>p:hover {
+            background-color: rgba(68, 240, 76, 0.4);
+        }
+        .squareshape>p:hover {
+            background-color: rgba(68, 240, 76, 0.4);
+        }
+        .rectangleshape>p:hover {
+            background-color: rgba(68, 240, 76, 0.4);
+        }
+    </style>
+</head>
+
+<body>
+    <div  class="menu">
+        <div class="circleshape">
+            <p></p>
+        </div>
+        <div class="circleshape">
+            <p></p>
+        </div>
+        <div class="circleshape">
+            <p></p>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="squareshape">
+            <p></p>
+        </div>
+        <div class="squareshape">
+            <p></p>
+        </div>
+        <div class="squareshape">
+            <p></p>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="rectangleshape">
+            <p></p>
+        </div>
+        <div class="rectangleshape">
+            <p></p>
+        </div>
+        <div class="rectangleshape">
+            <p></p>
+        </div>
+    </div>
+</body>
+
+
+</html>

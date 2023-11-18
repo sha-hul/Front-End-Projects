@@ -2,131 +2,161 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <title>Document</title>
 </head>
 
 <body>
-    <!--Navbar-->
-    <nav class="navbar bg-dark navbar-dark navbar-expand-sm ">
-        <div class="navbar-brand">Learn Bootstrap by doing!</div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="collapsibleNavbar" class="collapse navbar-collapse">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">HTML</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">CSS</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!--Card Content-->
-    <div id="html-container" class="container">
-        <h3>HTML</h3>
-        <!--6 cards-->
-        <div class="row">
-            <!--4 cards in a row-->
-            <div class="col-12 col-sm-6 col-lg-3 ">
-                <div class="card ">
-                  <div class="card-body">
-                    <p class="card-text">HTML defines the structure of the web page</p>
-                    <a class="btn btn-primary" href="https://www.crio.do">More</a>
-                  </div>
-                </div>
-            </div> 
-            <div class="col-12 col-sm-6 col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                    <p class="card-text">HTML defines the structure of the web page</p>
-                    <a class="btn btn-primary" href="https://www.crio.do">More</a>
-                  </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3">
-                <div class="card">
-                  <div class="card-body">
-                    <p class="card-text">HTML defines the structure of the web page</p>
-                    <a class="btn btn-primary" href="https://www.crio.do">More</a>
-                  </div>
-                </div>
-            </div>
-          <div class="col-12 col-sm-6 col-lg-3">
-              <div class="card">
-                  <div class="card-body">
-                  <p class="card-text">HTML defines the structure of the web page</p>
-                  <a class="btn btn-primary" href="https://www.crio.do">More</a>
-                </div>
-              </div>
+  <!--Navbar-->
+  <nav class="navbar bg-dark navbar-dark navbar-expand-sm fixed-top">
+    <div class="navbar-brand">Learn Bootstrap by doing!</div> <!--TO make the brand-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="collapsibleNavbar" class="collapse navbar-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#html-container">HTML</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#css-container">CSS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#bootstrap-container">Bootstrap</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Card Content-->
+  <!--HTML-->
+  <div id="html-container" class="container mb-5">
+    <h3 class="my-5" style="padding-top: 100px">HTML</h3>
+    <!--6 cards-->
+    <div class="row">
+      <!--4 cards in a row-->
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex align-items-stretch">
+        <div class="card ">
+          <div class="card-body">
+            <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" class="card-img-top"
+              alt="ImageOfHTML">
+            <p class="card-text">HTML defines the structure of the web page</p>
+            <a class="btn btn-primary" href="https://www.crio.do">More</a>
           </div>
         </div>
-        <div class="row">
-            <!--2 cards in a row-->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                          <p class="card-text">HTML defines the structure of the web page</p>
-                          <a class="btn btn-primary" href="https://www.crio.do">More</a>
-                        </div>
-                      </div>
-                </div>
-              <div class="col-12 col-sm-6 col-lg-3">
-                  <div class="card">
-                      <div class="card-body">
-                      <p class="card-text">HTML defines the structure of the web page</p>
-                      <a class="btn btn-primary" href="https://www.crio.do">More</a>
-                    </div>
-                  </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex align-items-stretch">
+        <div class="card ">
+          <div class="card-header bg-dark text-light">Top Header</div>
+          <div class="card-body">
+            <p class="card-text">HTML defines the structure of the web page</p>
+            <a class="btn btn-primary" href="https://www.crio.do">More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex align-items-stretch">
+        <div class="card ">
+          <div class="card-body">
+            <p class="card-text">HTML defines the structure of the web page</p>
+            <a class="btn btn-primary" href="https://www.crio.do">More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex align-items-stretch">
+        <div class="card ">
+          <div class="card-body">
+            <p class="card-text">HTML defines the structure of the web page</p>
+            <a class="btn btn-primary" href="https://www.crio.do">More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <!--2 cards in a row-->
+      <div class="col-12 col-sm-6 col-lg-3 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">HTML defines the structure of the web page</p>
+            <a class="btn btn-primary" href="https://www.crio.do">More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">HTML defines the structure of the web page</p>
+            <a class="btn btn-primary" href="https://www.crio.do">More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--CSS-->
+  <div id="css-container" class="container mb-5 ">
+    <h3 class="my-5" >CSS</h3>
+    <!--4 cards-->
+    <div class="row">
+      <div class="col-12 col-sm-6 col-lg-3 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">CSS adds style to the web page</p>
+            <a class="btn btn-primary" href="https://www.crio.do">More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">CSS adds style to the web page</p>
+            <a class="btn btn-primary" href="https://www.crio.do">More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">CSS adds style to the web page</p>
+            <a class="btn btn-primary" href="https://www.crio.do">More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">CSS adds style to the web page</p>
+            <a class="btn btn-primary" href="https://www.crio.do">More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Bootstrap-->
+    <div class="container mb-5" id="bootstrap-container">
+      <h2 class="my-5" >Bootstrap</h2>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-text">
+                Bootstrap Learn by Doing.
               </div>
+              <button class="btn btn-warning">
+                Explore Now
+              </button>
+            </div>
+          </div>
         </div>
       </div>
-      <div id="css-container" class="container">
-        <h3>CSS</h3> 
-        <!--4 cards-->
-        <div class="row">
-            <div class="col-12 col-sm-6 col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                    <p class="card-text">CSS adds style to the web page</p>
-                    <a class="btn btn-primary" href="https://www.crio.do">More</a>
-                  </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                    <p class="card-text">CSS adds style to the web page</p>
-                    <a class="btn btn-primary" href="https://www.crio.do">More</a>
-                  </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                    <p class="card-text">CSS adds style to the web page</p>
-                    <a class="btn btn-primary" href="https://www.crio.do">More</a>
-                  </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                    <p class="card-text">CSS adds style to the web page</p>
-                    <a class="btn btn-primary" href="https://www.crio.do">More</a>
-                  </div>
-                </div>
-            </div>
-        </div>
-      </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    </div>
+  </div>
+  <!--Footer-->
+  <footer style="width: 20%;" class="m-auto">
+    Created by <a href="#">Shahul</a>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
